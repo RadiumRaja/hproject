@@ -49,10 +49,8 @@ public class LoginRequest extends HttpServlet {
 //			oReturnStr = oReturnStr.append("status","0");
 			oReturnStr = "{\"status\":0,";
 			oReturnStr += "\"userId\":0}";
-
 		}
 		
 		response.getWriter().append(""+oReturnStr);
 	}
-
 }
